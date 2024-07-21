@@ -1,0 +1,44 @@
+# Maven target directory
+target/
+/.mvn/wrapper/*.jar
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# IDE configuration files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse project files
+.settings/
+*.launch
+
+# Intellij project files
+*.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.jks
+*.keystore
+
+# Gatling reports (if not needed)
+gatling/results/
+
+# Local Maven repository (if using local settings)
+.m2/repository/
+
+# Sensitive data (add specific files if needed)
+*.properties
+*.yml
+
+# Backup and temporary files
+*.swp
+*~
